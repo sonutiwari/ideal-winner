@@ -1,0 +1,41 @@
+.calculator {
+    margin:auto;
+    width: 40%;
+    background: rgb(227, 224, 224);
+    padding: 2px;
+}
+
+.header {
+    color: #fff;
+    margin:auto;
+    background: #000;
+    width: 96%;
+    text-align: center;
+}
+h4{
+    text-transform: uppercase;
+}
+.result-box{
+    background: #fff;
+    height: 2em;
+    width: 96%;
+    margin: auto;
+}
+
+.button-container{
+    width: 96%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:10px;
+}
+.normal-button {
+    margin: auto;
+    display: inline-block;
+    text-align:center;
+    width: 23%;
+    background-color: #fff;
+}
+
+.red-button {
+    background-color: rgb(207, 52, 56);
+}

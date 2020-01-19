@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">
+                <img id="brand-img" class="img img-responsive rounded-circle" src="./res/images/sonu_tiwari9056360543.jpg" alt="image"> 
+                <span id="music-span"><i class="fa fa-music"></i></span>
+                <span id="brand-text-span">Ninja Studio</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><span class="sr-only">(current)</span></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Favorites</a>
+                </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <div>
+                        <i class="search-icon fa fa-search"></i>
+                        <input class="form-control mr-sm-2" type="search" placeholder="   Search" aria-label="Search">
+                        <i class="microphone fa fa-microphone"></i>
+                    </div>
+                </form>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <span><i class="fa fa-bell" style="font-size: 3em;"></i></span>
+                            <span class="red-dot"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <img id="my-img" class="img img-responsive rounded-circle" src="./res/images/sonu_tiwari9056360543.jpg" alt="image"> 
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <main>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-2 col-md-4">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="album image">
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-md-4">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="album image">
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-md-4">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="album image">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="m-5">Latest Releases</h3>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="music image">
+                                </div>
+                                <div class="col-5">
+                                    <h4>Music name</h4>
+                                    <p>January 15, 2020</p>
+                                </div>
+                                <div class="col-4">
+                                    <p><span><i class="fa fa-ellipsis-h"></i></span></p>
+                                    <p>5:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="music image">
+                                </div>
+                                <div class="col-5">
+                                    <h4>Music name</h4>
+                                    <p>January 15, 2020</p>
+                                </div>
+                                <div class="col-4">
+                                    <p><span><i class="fa fa-ellipsis-h"></i></span></p>
+                                    <p>5:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="music image">
+                                </div>
+                                <div class="col-5">
+                                    <h4>Music name</h4>
+                                    <p>January 15, 2020</p>
+                                </div>
+                                <div class="col-4">
+                                    <p><span><i class="fa fa-ellipsis-h"></i></span></p>
+                                    <p>5:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="music image">
+                                </div>
+                                <div class="col-5">
+                                    <h4>Music name</h4>
+                                    <p>January 15, 2020</p>
+                                </div>
+                                <div class="col-4">
+                                    <p><span><i class="fa fa-ellipsis-h"></i></span></p>
+                                    <p>5:00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="m-5">Popular Artists</h3>
+                        </div>
+                        <div class="col-2">
+                            <img class="img-fluid rounded-circle" src="./res/images/sonu_tiwari9056360543.jpg" alt="artist1">
+                            <p class="text-center">Artist 1</p>
+                        </div>
+                        <div class="col-2">
+                            <img class="img-fluid rounded-circle" src="./res/images/sonu_tiwari9056360543.jpg" alt="artist1">
+                            <p class="text-center">Artist 1</p>
+                        </div>
+                        <div class="col-2">
+                            <img class="img-fluid rounded-circle" src="./res/images/sonu_tiwari9056360543.jpg" alt="artist1">
+                            <p class="text-center">Artist 1</p>
+                        </div>
+                        <div class="col-2">
+                            <img class="img-fluid rounded-circle" src="./res/images/sonu_tiwari9056360543.jpg" alt="artist1">
+                            <p class="text-center">Artist 1</p>
+                        </div>
+                        <div class="col-2">
+                            <img class="img-fluid rounded-circle" src="./res/images/sonu_tiwari9056360543.jpg" alt="artist1">
+                            <p class="text-center">Artist 1</p>
+                        </div>
+                        <div class="col-2">
+                            <img class="img-fluid rounded-circle" src="./res/images/sonu_tiwari9056360543.jpg" alt="artist1">
+                            <p class="text-center">Artist 1</p>
+                        </div>
+                    </div>
+                    <div class="row" id="music-types">
+                        <div class="col-1 m-auto">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="Image">
+                        </div>
+                        <div class="col-1 m-auto music-types text-center">
+                            <p class="music-type">LOVE</p>
+                        </div>
+                        <div class="col-1 m-auto music-types text-center">
+                            <p class="music-type">Retro</p>
+                        </div>
+                        <div class="col-1 m-auto music-types text-center">
+                            <p class="music-type">CND</p>
+                        </div>
+                        <div class="col-1 m-auto music-types text-center">
+                            <p class="music-type">Workout</p>
+                        </div>
+                        <div class="col-1 m-auto music-types text-center">
+                            <p class="music-type">Rock</p>
+                        </div>
+                        <div class="col-1 m-auto music-types text-center">
+                            <p class="music-type">POP</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 img-bg text-center">
+                            <p>Party</p>
+                        </div>
+                        <div class="col-3 img-bg text-center">
+                            <p>Electronic</p>
+                        </div>
+                        <div class="col-4 img-bg text-center">
+                            <p>Road trip</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="m-5">Latest Hindi</h3>
+                        </div>
+                        <div class="col-2">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="artist1">
+                            <p class="text-center">Artist 1</p>
+                        </div>
+                        <div class="col-2">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="artist1">
+                            <p class="text-center">Artist 1</p>
+                        </div>
+                        <div class="col-2">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="artist1">
+                            <p class="text-center">Artist 1</p>
+                        </div>
+                        <div class="col-2">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="artist1">
+                            <p class="text-center">Artist 1</p>
+                        </div>
+                        <div class="col-2">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="artist1">
+                            <p class="text-center">Artist 1</p>
+                        </div>
+                        <div class="col-2">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="artist1">
+                            <p class="text-center">Artist 1</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="m-5">Latest English</h3>
+                        </div>
+                        <div class="col-2">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="artist1">
+                            <p class="text-center">Artist 1</p>
+                        </div>
+                        <div class="col-2">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="artist1">
+                            <p class="text-center">Artist 1</p>
+                        </div>
+                        <div class="col-2">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="artist1">
+                            <p class="text-center">Artist 1</p>
+                        </div>
+                        <div class="col-2">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="artist1">
+                            <p class="text-center">Artist 1</p>
+                        </div>
+                        <div class="col-2">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="artist1">
+                            <p class="text-center">Artist 1</p>
+                        </div>
+                        <div class="col-2">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="artist1">
+                            <p class="text-center">Artist 1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" id="music-queue">
+                    <div class="row">
+                        <div class="col-8">
+                            <h3>Queue</h3>
+                        </div>
+                        <div class="col-4" style="float:right">
+                            <p>Queue<span><i class="fa fa-chevron-down"></i></span></p>
+                        </div>
+                    </div>
+                    <div class="row" id="queue">
+                        <div class="col-1">01</div>
+                        <div class="col-3">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="music image">
+                        </div>
+                        <div class="col-6">
+                            <h3>Music 1</h3>
+                            <h6>Description 1</h6>
+                        </div>
+                        <div class="col-2">
+                            <span><i class="fa fa-heart"></i></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">02</div>
+                        <div class="col-3">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="music image">
+                        </div>
+                        <div class="col-6">
+                            <h3>Music 2</h3>
+                            <h6>Description 2</h6>
+                        </div>
+                        <div class="col-2">
+                            <span><i class="fa fa-heart"></i></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">03</div>
+                        <div class="col-3">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="music image">
+                        </div>
+                        <div class="col-6">
+                            <h3>Music 3</h3>
+                            <h6>Description 3</h6>
+                        </div>
+                        <div class="col-2">
+                            <span><i class="fa fa-heart"></i></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">01</div>
+                        <div class="col-3">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="music image">
+                        </div>
+                        <div class="col-6">
+                            <h3>Music 1</h3>
+                            <h6>Description 1</h6>
+                        </div>
+                        <div class="col-2">
+                            <span><i class="fa fa-heart"></i></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">01</div>
+                        <div class="col-3">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="music image">
+                        </div>
+                        <div class="col-6">
+                            <h3>Music 1</h3>
+                            <h6>Description 1</h6>
+                        </div>
+                        <div class="col-2">
+                            <span><i class="fa fa-heart"></i></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">01</div>
+                        <div class="col-3">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="music image">
+                        </div>
+                        <div class="col-6">
+                            <h3>Music 1</h3>
+                            <h6>Description 1</h6>
+                        </div>
+                        <div class="col-2">
+                            <span><i class="fa fa-heart"></i></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">01</div>
+                        <div class="col-3">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="music image">
+                        </div>
+                        <div class="col-6">
+                            <h3>Music 1</h3>
+                            <h6>Description 1</h6>
+                        </div>
+                        <div class="col-2">
+                            <span><i class="fa fa-heart"></i></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">01</div>
+                        <div class="col-3">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="music image">
+                        </div>
+                        <div class="col-6">
+                            <h3>Music 1</h3>
+                            <h6>Description 1</h6>
+                        </div>
+                        <div class="col-2">
+                            <span><i class="fa fa-heart"></i></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">01</div>
+                        <div class="col-3">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="music image">
+                        </div>
+                        <div class="col-6">
+                            <h3>Music 1</h3>
+                            <h6>Description 1</h6>
+                        </div>
+                        <div class="col-2">
+                            <span><i class="fa fa-heart"></i></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">01</div>
+                        <div class="col-3">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="music image">
+                        </div>
+                        <div class="col-6">
+                            <h3>Music 1</h3>
+                            <h6>Description 1</h6>
+                        </div>
+                        <div class="col-2">
+                            <span><i class="fa fa-heart"></i></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">01</div>
+                        <div class="col-3">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="music image">
+                        </div>
+                        <div class="col-6">
+                            <h3>Music 1</h3>
+                            <h6>Description 1</h6>
+                        </div>
+                        <div class="col-2">
+                            <span><i class="fa fa-heart"></i></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">01</div>
+                        <div class="col-3">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="music image">
+                        </div>
+                        <div class="col-6">
+                            <h3>Music 1</h3>
+                            <h6>Description 1</h6>
+                        </div>
+                        <div class="col-2">
+                            <span><i class="fa fa-heart"></i></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">01</div>
+                        <div class="col-3">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="music image">
+                        </div>
+                        <div class="col-6">
+                            <h3>Music 1</h3>
+                            <h6>Description 1</h6>
+                        </div>
+                        <div class="col-2">
+                            <span><i class="fa fa-heart"></i></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">01</div>
+                        <div class="col-3">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="music image">
+                        </div>
+                        <div class="col-6">
+                            <h3>Music 1</h3>
+                            <h6>Description 1</h6>
+                        </div>
+                        <div class="col-2">
+                            <span><i class="fa fa-heart"></i></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">01</div>
+                        <div class="col-3">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="music image">
+                        </div>
+                        <div class="col-6">
+                            <h3>Music 1</h3>
+                            <h6>Description 1</h6>
+                        </div>
+                        <div class="col-2">
+                            <span><i class="fa fa-heart"></i></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">01</div>
+                        <div class="col-3">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="music image">
+                        </div>
+                        <div class="col-6">
+                            <h3>Music 1</h3>
+                            <h6>Description 1</h6>
+                        </div>
+                        <div class="col-2">
+                            <span><i class="fa fa-heart"></i></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">01</div>
+                        <div class="col-3">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="music image">
+                        </div>
+                        <div class="col-6">
+                            <h3>Music 1</h3>
+                            <h6>Description 1</h6>
+                        </div>
+                        <div class="col-2">
+                            <span><i class="fa fa-heart"></i></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">01</div>
+                        <div class="col-3">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="music image">
+                        </div>
+                        <div class="col-6">
+                            <h3>Music 1</h3>
+                            <h6>Description 1</h6>
+                        </div>
+                        <div class="col-2">
+                            <span><i class="fa fa-heart"></i></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">01</div>
+                        <div class="col-3">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="music image">
+                        </div>
+                        <div class="col-6">
+                            <h3>Music 1</h3>
+                            <h6>Description 1</h6>
+                        </div>
+                        <div class="col-2">
+                            <span><i class="fa fa-heart"></i></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">01</div>
+                        <div class="col-3">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="music image">
+                        </div>
+                        <div class="col-6">
+                            <h3>Music 1</h3>
+                            <h6>Description 1</h6>
+                        </div>
+                        <div class="col-2">
+                            <span><i class="fa fa-heart"></i></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">01</div>
+                        <div class="col-3">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="music image">
+                        </div>
+                        <div class="col-6">
+                            <h3>Music 1</h3>
+                            <h6>Description 1</h6>
+                        </div>
+                        <div class="col-2">
+                            <span><i class="fa fa-heart"></i></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">01</div>
+                        <div class="col-3">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="music image">
+                        </div>
+                        <div class="col-6">
+                            <h3>Music 1</h3>
+                            <h6>Description 1</h6>
+                        </div>
+                        <div class="col-2">
+                            <span><i class="fa fa-heart"></i></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">01</div>
+                        <div class="col-3">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="music image">
+                        </div>
+                        <div class="col-6">
+                            <h3>Music 1</h3>
+                            <h6>Description 1</h6>
+                        </div>
+                        <div class="col-2">
+                            <span><i class="fa fa-heart"></i></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">01</div>
+                        <div class="col-3">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="music image">
+                        </div>
+                        <div class="col-6">
+                            <h3>Music 1</h3>
+                            <h6>Description 1</h6>
+                        </div>
+                        <div class="col-2">
+                            <span><i class="fa fa-heart"></i></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">01</div>
+                        <div class="col-3">
+                            <img class="img-fluid" src="./res/images/sonu_tiwari9056360543.jpg" alt="music image">
+                        </div>
+                        <div class="col-6">
+                            <h3>Music 1</h3>
+                            <h6>Description 1</h6>
+                        </div>
+                        <div class="col-2">
+                            <span><i class="fa fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
